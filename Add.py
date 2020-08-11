@@ -1,4 +1,6 @@
-a = input("Enter first number")
-b = input("Enter second number")
-c = a + b
-print(c)
+def add(a, b)
+    c = a + b
+    print(c)
+x = input("Number:")
+y = input("Number:")
+add(x, y)
